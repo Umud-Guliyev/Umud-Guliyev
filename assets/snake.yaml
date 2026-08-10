@@ -1,0 +1,30 @@
+name: Generate GitHub Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Umud-Guliyev
+          outputs: |
+            dist/github-snake.svg?color_snake=%2316C7FF&color_dots=%23071522,%230B2635,%230E526D,%2316A9D0,%2338BDF8
+            dist/github-snake-dark.svg?color_snake=%238B5CF6&color_dots=%23071522,%230B2635,%23352B55,%235A3D88,%238B5CF6
+
+      - name: Publish generated files
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          build_dir: dist
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
