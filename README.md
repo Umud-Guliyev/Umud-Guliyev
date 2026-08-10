@@ -19,3 +19,13 @@
 </div>
 
 <br>
+
+<div align="center">
+  <img
+    src="./assets/stack.svg"
+    width="100%"
+    alt="Umud Guliyev Tech Stack"
+  />
+</div>
+
+<br>
