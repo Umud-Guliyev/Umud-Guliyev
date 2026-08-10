@@ -1,0 +1,927 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="760"
+  viewBox="0 0 1200 760"
+  role="img"
+  aria-label="Umud Guliyev — Experience, Education and Certifications"
+>
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!-- BACKGROUND -->
+    <!-- ================================================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111C"/>
+      <stop offset="50%" stop-color="#0A1520"/>
+      <stop offset="100%" stop-color="#171127"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- ACCENTS -->
+    <!-- ================================================= -->
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16C7FF"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16A34A"/>
+      <stop offset="100%" stop-color="#4ADE80"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- CARD -->
+    <!-- ================================================= -->
+
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1926"/>
+      <stop offset="100%" stop-color="#08131D"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15506A"/>
+      <stop offset="50%" stop-color="#1A3447"/>
+      <stop offset="100%" stop-color="#50386F"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- GLOWS -->
+    <!-- ================================================= -->
+
+    <radialGradient id="cyanGlow">
+      <stop offset="0%" stop-color="#16C7FF" stop-opacity=".13"/>
+      <stop offset="100%" stop-color="#16C7FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+
+  <rect
+    width="1200"
+    height="760"
+    rx="18"
+    fill="url(#bg)"
+  />
+
+  <circle
+    cx="1080"
+    cy="100"
+    r="210"
+    fill="url(#purpleGlow)"
+  >
+    <animate
+      attributeName="r"
+      values="190;225;190"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values=".45;.8;.45"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle
+    cx="70"
+    cy="680"
+    r="200"
+    fill="url(#cyanGlow)"
+  >
+    <animate
+      attributeName="r"
+      values="175;215;175"
+      dur="7s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- TERMINAL HEADER -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="45"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="600"
+    fill="#5D7385"
+  >
+    umud@github:~
+  </text>
+
+  <text
+    x="55"
+    y="80"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#29C4FF"
+  >
+    &gt; career.scan
+  </text>
+
+  <rect
+    x="175"
+    y="64"
+    width="3"
+    height="20"
+    rx="1"
+    fill="#19C8FF"
+  >
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!-- TITLE -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="125"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    07 EXPERIENCE &amp; EDUCATION
+  </text>
+
+  <text
+    x="55"
+    y="153"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    fill="#718899"
+  >
+    Professional journey • education • licenses &amp; certifications
+  </text>
+
+  <rect
+    x="55"
+    y="175"
+    width="1090"
+    height="1"
+    fill="url(#accent)"
+    opacity=".4"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- EXPERIENCE HEADER -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="211"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    EXPERIENCE
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- EXPERIENCE CARD -->
+  <!-- ================================================= -->
+
+  <rect
+    x="55"
+    y="230"
+    width="700"
+    height="460"
+    rx="15"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- TIMELINE -->
+  <!-- ================================================= -->
+
+  <line
+    x1="92"
+    y1="265"
+    x2="92"
+    y2="655"
+    stroke="#173747"
+    stroke-width="2"
+  />
+
+  <line
+    x1="92"
+    y1="265"
+    x2="92"
+    y2="450"
+    stroke="url(#accent)"
+    stroke-width="2"
+  >
+    <animate
+      attributeName="y2"
+      values="420;480;420"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </line>
+
+
+  <!-- ================================================= -->
+  <!-- 01 FURSAT -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="92"
+    cy="265"
+    r="8"
+    fill="#08131D"
+    stroke="#16C7FF"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="92"
+    cy="265"
+    r="3"
+    fill="#38CFFF"
+  />
+
+  <text
+    x="120"
+    y="264"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Co-Founder
+  </text>
+
+  <text
+    x="120"
+    y="286"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    fill="#38CFFF"
+  >
+    Fursat 4 MMC • Fursat
+  </text>
+
+  <text
+    x="120"
+    y="305"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    fill="#637B8B"
+  >
+    2025 — PRESENT
+  </text>
+
+  <text
+    x="120"
+    y="324"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#718899"
+  >
+    Retail promotions platform • Web • Mobile
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- 02 TAGLORA -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="92"
+    cy="365"
+    r="8"
+    fill="#08131D"
+    stroke="#22C55E"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="92"
+    cy="365"
+    r="3"
+    fill="#4ADE80"
+  />
+
+  <text
+    x="120"
+    y="364"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Co-Founder / Product Builder
+  </text>
+
+  <text
+    x="120"
+    y="386"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    fill="#4ADE80"
+  >
+    Taglora
+  </text>
+
+  <text
+    x="120"
+    y="405"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    fill="#637B8B"
+  >
+    2025 — PRESENT
+  </text>
+
+  <text
+    x="120"
+    y="424"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#718899"
+  >
+    Smart retail • AI • Automation
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- 03 DATA SCIENCE ACADEMY -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="92"
+    cy="465"
+    r="8"
+    fill="#08131D"
+    stroke="#8B5CF6"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="92"
+    cy="465"
+    r="3"
+    fill="#A78BFA"
+  />
+
+  <text
+    x="120"
+    y="464"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Software Engineer
+  </text>
+
+  <text
+    x="120"
+    y="486"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    fill="#A78BFA"
+  >
+    Data Science Academy
+  </text>
+
+  <text
+    x="120"
+    y="505"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    fill="#637B8B"
+  >
+    2025 — 2026
+  </text>
+
+  <text
+    x="120"
+    y="524"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#718899"
+  >
+    Full-Stack • AI • Backend • Education Platform
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- 04 QSS ANALYTICS -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="92"
+    cy="565"
+    r="8"
+    fill="#08131D"
+    stroke="#38BDF8"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="92"
+    cy="565"
+    r="3"
+    fill="#38BDF8"
+  />
+
+  <text
+    x="120"
+    y="564"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Full-Stack Developer
+  </text>
+
+  <text
+    x="120"
+    y="586"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    fill="#38BDF8"
+  >
+    QSS Analytics
+  </text>
+
+  <text
+    x="120"
+    y="605"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    fill="#637B8B"
+  >
+    2025 — JUN 2026
+  </text>
+
+  <text
+    x="120"
+    y="624"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#718899"
+  >
+    Full-Stack • APIs • Data Systems
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- 05 WEBCODER -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="92"
+    cy="655"
+    r="8"
+    fill="#08131D"
+    stroke="#A78BFA"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="92"
+    cy="655"
+    r="3"
+    fill="#A78BFA"
+  />
+
+  <text
+    x="120"
+    y="651"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Frontend Developer
+  </text>
+
+  <text
+    x="120"
+    y="673"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="600"
+    fill="#A78BFA"
+  >
+    Webcoder Agency
+  </text>
+
+  <text
+    x="370"
+    y="673"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    fill="#637B8B"
+  >
+    2024 — 2025
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- RIGHT — EDUCATION -->
+  <!-- ================================================= -->
+
+  <text
+    x="785"
+    y="211"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    EDUCATION
+  </text>
+
+  <rect
+    x="785"
+    y="230"
+    width="360"
+    height="145"
+    rx="15"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <rect
+    x="812"
+    y="258"
+    width="43"
+    height="43"
+    rx="11"
+    fill="#0D2635"
+    stroke="#16C7FF"
+    stroke-width="1"
+  />
+
+  <text
+    x="833"
+    y="286"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    font-weight="800"
+    fill="#38CFFF"
+  >
+    DU
+  </text>
+
+  <text
+    x="875"
+    y="261"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Kütahya Dumlupınar
+  </text>
+
+  <text
+    x="875"
+    y="281"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    University
+  </text>
+
+  <text
+    x="875"
+    y="306"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#8AA0B0"
+  >
+    Business Administration
+  </text>
+
+  <text
+    x="875"
+    y="326"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    fill="#637B8B"
+  >
+    2025 — 2029
+  </text>
+
+  <rect
+    x="812"
+    y="348"
+    width="275"
+    height="2"
+    rx="1"
+    fill="url(#cyan)"
+    opacity=".45"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- CERTIFICATIONS -->
+  <!-- ================================================= -->
+
+  <text
+    x="785"
+    y="415"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    LICENSES &amp; CERTIFICATIONS
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- CERTIFICATE 01 -->
+  <!-- ================================================= -->
+
+  <rect
+    x="785"
+    y="435"
+    width="360"
+    height="100"
+    rx="13"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <rect
+    x="808"
+    y="463"
+    width="35"
+    height="35"
+    rx="8"
+    fill="#10283A"
+    stroke="#16C7FF"
+    stroke-width="1"
+  />
+
+  <text
+    x="825"
+    y="486"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="800"
+    fill="#38CFFF"
+  >
+    FE
+  </text>
+
+  <text
+    x="858"
+    y="462"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Frontend Developer
+  </text>
+
+  <text
+    x="858"
+    y="480"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Internship Program
+  </text>
+
+  <text
+    x="858"
+    y="503"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    fill="#8AA0B0"
+  >
+    Baku Design Academy
+  </text>
+
+  <text
+    x="858"
+    y="520"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#637B8B"
+  >
+    Frontend Development
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- CERTIFICATE 02 -->
+  <!-- ================================================= -->
+
+  <rect
+    x="785"
+    y="550"
+    width="360"
+    height="100"
+    rx="13"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <rect
+    x="808"
+    y="578"
+    width="35"
+    height="35"
+    rx="8"
+    fill="#21163A"
+    stroke="#8B5CF6"
+    stroke-width="1"
+  />
+
+  <text
+    x="825"
+    y="601"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="800"
+    fill="#A78BFA"
+  >
+    IT
+  </text>
+
+  <text
+    x="858"
+    y="577"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Frontend Developer
+  </text>
+
+  <text
+    x="858"
+    y="595"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Golden Diploma
+  </text>
+
+  <text
+    x="858"
+    y="618"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    fill="#A78BFA"
+  >
+    ITBrains Academy
+  </text>
+
+  <text
+    x="858"
+    y="635"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#637B8B"
+  >
+    Frontend Development
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- STATUS -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="805"
+    cy="680"
+    r="5"
+    fill="#22C55E"
+  >
+    <animate
+      attributeName="opacity"
+      values="1;.3;1"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <text
+    x="820"
+    y="685"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#7EE787"
+  >
+    CONTINUOUSLY BUILDING
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- FOOTER -->
+  <!-- ================================================= -->
+
+  <rect
+    x="55"
+    y="715"
+    width="1090"
+    height="1"
+    fill="url(#accent)"
+    opacity=".3"
+  />
+
+  <text
+    x="55"
+    y="738"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#36C8FF"
+  >
+    BUILD • LEARN • SHIP • GROW
+  </text>
+
+  <text
+    x="1145"
+    y="738"
+    text-anchor="end"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    fill="#506575"
+  >
+    UMUD-GULIYEV / JOURNEY
+  </text>
+
+</svg>
