@@ -54,6 +54,16 @@
 
 <div align="center">
   <img
+    src="./assets/experience"
+    width="100%"
+    alt="Umud Guliyev Stats"
+  />
+</div>
+
+<br>
+
+<div align="center">
+  <img
     src="./assets/streak"
     width="100%"
     alt="Umud Guliyev Streak"
