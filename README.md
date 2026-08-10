@@ -7,3 +7,11 @@
 />
 
 </div>
+
+<div align="center">
+  <img
+    src="./assets/about.svg"
+    width="100%"
+    alt="About Umud Guliyev"
+  />
+</div>
