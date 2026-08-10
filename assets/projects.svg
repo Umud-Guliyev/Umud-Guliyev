@@ -1,0 +1,1027 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="850"
+     viewBox="0 0 1200 850"
+     role="img"
+     aria-label="Featured Projects by Umud Guliyev">
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!-- BACKGROUND -->
+    <!-- ================================================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#050B12"/>
+      <stop offset="48%"  stop-color="#08131C"/>
+      <stop offset="100%" stop-color="#100B18"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- FURSAT -->
+    <!-- ================================================= -->
+
+    <linearGradient id="fursatGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF2F92"/>
+      <stop offset="50%" stop-color="#FF4FA3"/>
+      <stop offset="100%" stop-color="#FF86BD"/>
+    </linearGradient>
+
+    <radialGradient id="fursatGlow">
+      <stop offset="0%" stop-color="#FF2F92" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#FF2F92" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ================================================= -->
+    <!-- TAGLORA -->
+    <!-- ================================================= -->
+
+    <linearGradient id="tagloraGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16A34A"/>
+      <stop offset="50%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#4ADE80"/>
+    </linearGradient>
+
+    <radialGradient id="tagloraGlow">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity=".17"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ================================================= -->
+    <!-- DSA -->
+    <!-- ================================================= -->
+
+    <linearGradient id="dsaGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <radialGradient id="dsaGlow">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ================================================= -->
+    <!-- KAPITAL BANK -->
+    <!-- ================================================= -->
+
+    <linearGradient id="kapitalGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C8102E"/>
+      <stop offset="50%" stop-color="#E30613"/>
+      <stop offset="100%" stop-color="#FF4654"/>
+    </linearGradient>
+
+    <radialGradient id="kapitalGlow">
+      <stop offset="0%" stop-color="#E30613" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#E30613" stop-opacity="0"/>
+    </radialGradient>
+
+  </defs>
+
+
+  <!-- ===================================================== -->
+  <!-- MAIN CONTAINER -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="8"
+    y="8"
+    width="1184"
+    height="834"
+    rx="30"
+    fill="url(#bg)"
+    stroke="#1B3444"
+    stroke-width="1.5"
+  />
+
+
+  <!-- Ambient brand glows -->
+
+  <ellipse
+    cx="190"
+    cy="170"
+    rx="280"
+    ry="180"
+    fill="url(#fursatGlow)"
+  />
+
+  <ellipse
+    cx="1030"
+    cy="170"
+    rx="280"
+    ry="180"
+    fill="url(#tagloraGlow)"
+  />
+
+  <ellipse
+    cx="190"
+    cy="690"
+    rx="280"
+    ry="180"
+    fill="url(#dsaGlow)"
+  />
+
+  <ellipse
+    cx="1030"
+    cy="690"
+    rx="280"
+    ry="180"
+    fill="url(#kapitalGlow)"
+  />
+
+
+  <!-- ===================================================== -->
+  <!-- TERMINAL HEADER -->
+  <!-- ===================================================== -->
+
+  <circle cx="45" cy="45" r="6" fill="#FF5F56"/>
+  <circle cx="65" cy="45" r="6" fill="#FFBD2E"/>
+  <circle cx="85" cy="45" r="6" fill="#27C93F"/>
+
+  <text
+    x="108"
+    y="50"
+    font-family="monospace"
+    font-size="13"
+    font-weight="600"
+    fill="#708695">
+    umud@github:~/projects
+  </text>
+
+  <text
+    x="1148"
+    y="50"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#8BA4B3">
+    projects.scan()
+  </text>
+
+  <line
+    x1="32"
+    y1="72"
+    x2="1168"
+    y2="72"
+    stroke="#173241"
+    stroke-width="1"
+  />
+
+
+  <!-- ===================================================== -->
+  <!-- TITLE -->
+  <!-- ===================================================== -->
+
+  <text
+    x="50"
+    y="120"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    font-weight="800"
+    fill="#F2FAFD">
+    Featured Projects
+  </text>
+
+  <text
+    x="50"
+    y="148"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    fill="#708592">
+    Products, platforms &amp; production systems I've built
+  </text>
+
+  <text
+    x="1148"
+    y="117"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="11"
+    font-weight="700"
+    fill="#A1B4BF">
+    04 PROJECTS
+  </text>
+
+  <circle
+    cx="1037"
+    cy="143"
+    r="4"
+    fill="#27C93F">
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="1.8s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <text
+    x="1050"
+    y="147"
+    font-family="monospace"
+    font-size="9"
+    fill="#5E7887">
+    ACTIVE
+  </text>
+
+  <line
+    x1="50"
+    y1="170"
+    x2="1150"
+    y2="170"
+    stroke="#173241"
+    stroke-width="1"
+  />
+
+
+  <!-- ===================================================== -->
+  <!-- FURSAT CARD -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="45"
+    y="195"
+    width="535"
+    height="270"
+    rx="22"
+    fill="#0B1018"
+    stroke="#3D1930"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="195"
+    width="535"
+    height="3"
+    rx="1.5"
+    fill="url(#fursatGradient)"
+  />
+
+  <!-- Project index -->
+
+  <text
+    x="75"
+    y="230"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#FF4FA3">
+    01 / FOUNDER PROJECT
+  </text>
+
+  <!-- Live -->
+
+  <circle
+    cx="530"
+    cy="225"
+    r="4"
+    fill="#27C93F">
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="1.7s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <text
+    x="510"
+    y="230"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="9"
+    font-weight="700"
+    fill="#62D889">
+    LIVE
+  </text>
+
+  <!-- Title -->
+
+  <text
+    x="75"
+    y="268"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="25"
+    font-weight="800"
+    fill="#FFFFFF">
+    FURSAT
+  </text>
+
+  <text
+    x="75"
+    y="292"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#FF4FA3">
+    Retail Promotions Platform
+  </text>
+
+  <text
+    x="75"
+    y="320"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#8496A2">
+    End-to-end platform connecting users
+  </text>
+
+  <text
+    x="75"
+    y="338"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#8496A2">
+    and merchants across web &amp; mobile.
+  </text>
+
+
+  <!-- Fursat tech -->
+
+  <rect
+    x="75" y="360"
+    width="75" height="24" rx="12"
+    fill="#24121D"
+    stroke="#6E2450"/>
+
+  <text
+    x="112" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF86BD">
+    Flutter
+  </text>
+
+  <rect
+    x="158" y="360"
+    width="78" height="24" rx="12"
+    fill="#24121D"
+    stroke="#6E2450"/>
+
+  <text
+    x="197" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF86BD">
+    Next.js
+  </text>
+
+  <rect
+    x="244" y="360"
+    width="80" height="24" rx="12"
+    fill="#24121D"
+    stroke="#6E2450"/>
+
+  <text
+    x="284" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF86BD">
+    Node.js
+  </text>
+
+  <rect
+    x="332" y="360"
+    width="84" height="24" rx="12"
+    fill="#24121D"
+    stroke="#6E2450"/>
+
+  <text
+    x="374" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF86BD">
+    MongoDB
+  </text>
+
+  <rect
+    x="424" y="360"
+    width="60" height="24" rx="12"
+    fill="#24121D"
+    stroke="#6E2450"/>
+
+  <text
+    x="454" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF86BD">
+    Redis
+  </text>
+
+
+  <line
+    x1="75"
+    y1="407"
+    x2="550"
+    y2="407"
+    stroke="#33182A"
+  />
+
+  <text
+    x="75"
+    y="430"
+    font-family="monospace"
+    font-size="9"
+    fill="#61727D">
+    FOUNDER • 2025 — PRESENT
+  </text>
+
+  <text
+    x="530"
+    y="430"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#FF4FA3">
+    FURSAT.AZ ↗
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- TAGLORA CARD -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="620"
+    y="195"
+    width="535"
+    height="270"
+    rx="22"
+    fill="#08130E"
+    stroke="#173E28"
+    stroke-width="1"
+  />
+
+  <rect
+    x="620"
+    y="195"
+    width="535"
+    height="3"
+    rx="1.5"
+    fill="url(#tagloraGradient)"
+  />
+
+  <text
+    x="650"
+    y="230"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#4ADE80">
+    02 / FOUNDER PROJECT
+  </text>
+
+  <circle
+    cx="1105"
+    cy="225"
+    r="4"
+    fill="#27C93F">
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="1.9s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <text
+    x="1085"
+    y="230"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="9"
+    font-weight="700"
+    fill="#62D889">
+    ACTIVE
+  </text>
+
+
+  <text
+    x="650"
+    y="268"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="25"
+    font-weight="800"
+    fill="#FFFFFF">
+    TAGLORA
+  </text>
+
+  <text
+    x="650"
+    y="292"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#4ADE80">
+    AI-Powered Smart Retail
+  </text>
+
+  <text
+    x="650"
+    y="320"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#849A8D">
+    Smart digital labeling, intelligent
+  </text>
+
+  <text
+    x="650"
+    y="338"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#849A8D">
+    store management &amp; automation.
+  </text>
+
+
+  <!-- Taglora tech -->
+
+  <rect
+    x="650" y="360"
+    width="72" height="24" rx="12"
+    fill="#0E2418"
+    stroke="#23683D"/>
+
+  <text
+    x="686" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#86EFAC">
+    React
+  </text>
+
+  <rect
+    x="730" y="360"
+    width="80" height="24" rx="12"
+    fill="#0E2418"
+    stroke="#23683D"/>
+
+  <text
+    x="770" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#86EFAC">
+    Node.js
+  </text>
+
+  <rect
+    x="818" y="360"
+    width="60" height="24" rx="12"
+    fill="#0E2418"
+    stroke="#23683D"/>
+
+  <text
+    x="848" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#86EFAC">
+    AI
+  </text>
+
+  <rect
+    x="886" y="360"
+    width="105" height="24" rx="12"
+    fill="#0E2418"
+    stroke="#23683D"/>
+
+  <text
+    x="938" y="376"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#86EFAC">
+    Automation
+  </text>
+
+
+  <line
+    x1="650"
+    y1="407"
+    x2="1125"
+    y2="407"
+    stroke="#163622"
+  />
+
+  <text
+    x="650"
+    y="430"
+    font-family="monospace"
+    font-size="9"
+    fill="#60786A">
+    FOUNDER • 2025 — PRESENT
+  </text>
+
+  <text
+    x="1105"
+    y="430"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#4ADE80">
+    SMART RETAIL ↗
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- DSA CARD -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="45"
+    y="495"
+    width="535"
+    height="270"
+    rx="22"
+    fill="#08111D"
+    stroke="#18365A"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="495"
+    width="535"
+    height="3"
+    rx="1.5"
+    fill="url(#dsaGradient)"
+  />
+
+  <text
+    x="75"
+    y="530"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#60A5FA">
+    03 / PROFESSIONAL PROJECT
+  </text>
+
+
+  <text
+    x="75"
+    y="568"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="24"
+    font-weight="800"
+    fill="#FFFFFF">
+    DATA SCIENCE ACADEMY
+  </text>
+
+  <text
+    x="75"
+    y="592"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#60A5FA">
+    Education &amp; AI Platform
+  </text>
+
+  <text
+    x="75"
+    y="620"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#8295A5">
+    Responsive education platform with
+  </text>
+
+  <text
+    x="75"
+    y="638"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#8295A5">
+    dashboards, backend services &amp; AI chatbot.
+  </text>
+
+
+  <!-- DSA tech -->
+
+  <rect
+    x="75" y="660"
+    width="65" height="24" rx="12"
+    fill="#0D1D32"
+    stroke="#24558E"/>
+
+  <text
+    x="107" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#93C5FD">
+    React
+  </text>
+
+  <rect
+    x="148" y="660"
+    width="65" height="24" rx="12"
+    fill="#0D1D32"
+    stroke="#24558E"/>
+
+  <text
+    x="180" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#93C5FD">
+    Django
+  </text>
+
+  <rect
+    x="221" y="660"
+    width="72" height="24" rx="12"
+    fill="#0D1D32"
+    stroke="#24558E"/>
+
+  <text
+    x="257" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#93C5FD">
+    FastAPI
+  </text>
+
+  <rect
+    x="301" y="660"
+    width="65" height="24" rx="12"
+    fill="#0D1D32"
+    stroke="#24558E"/>
+
+  <text
+    x="333" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#93C5FD">
+    Python
+  </text>
+
+  <rect
+    x="374" y="660"
+    width="60" height="24" rx="12"
+    fill="#0D1D32"
+    stroke="#24558E"/>
+
+  <text
+    x="404" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#93C5FD">
+    AI
+  </text>
+
+
+  <line
+    x1="75"
+    y1="707"
+    x2="550"
+    y2="707"
+    stroke="#173452"
+  />
+
+  <text
+    x="75"
+    y="730"
+    font-family="monospace"
+    font-size="9"
+    fill="#61788B">
+    SOFTWARE ENGINEER
+  </text>
+
+  <text
+    x="530"
+    y="730"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#60A5FA">
+    DSA.AZ ↗
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- KAPITAL BANK CARD -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="620"
+    y="495"
+    width="535"
+    height="270"
+    rx="22"
+    fill="#170A0D"
+    stroke="#4A171F"
+    stroke-width="1"
+  />
+
+  <rect
+    x="620"
+    y="495"
+    width="535"
+    height="3"
+    rx="1.5"
+    fill="url(#kapitalGradient)"
+  />
+
+  <text
+    x="650"
+    y="530"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#FF4654">
+    04 / ENTERPRISE PROJECT
+  </text>
+
+
+  <text
+    x="650"
+    y="568"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="25"
+    font-weight="800"
+    fill="#FFFFFF">
+    KAPITAL BANK
+  </text>
+
+  <text
+    x="650"
+    y="592"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#FF4654">
+    Payment SDK
+  </text>
+
+  <text
+    x="650"
+    y="620"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#9D8588">
+    Secure payment integrations,
+  </text>
+
+  <text
+    x="650"
+    y="638"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#9D8588">
+    transaction workflows &amp; API integrations.
+  </text>
+
+
+  <!-- Kapital tech -->
+
+  <rect
+    x="650" y="660"
+    width="80" height="24" rx="12"
+    fill="#291014"
+    stroke="#76232F"/>
+
+  <text
+    x="690" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF7A83">
+    Payments
+  </text>
+
+  <rect
+    x="738" y="660"
+    width="65" height="24" rx="12"
+    fill="#291014"
+    stroke="#76232F"/>
+
+  <text
+    x="770" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF7A83">
+    REST API
+  </text>
+
+  <rect
+    x="811" y="660"
+    width="105" height="24" rx="12"
+    fill="#291014"
+    stroke="#76232F"/>
+
+  <text
+    x="863" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF7A83">
+    Transactions
+  </text>
+
+  <rect
+    x="924" y="660"
+    width="75" height="24" rx="12"
+    fill="#291014"
+    stroke="#76232F"/>
+
+  <text
+    x="961" y="676"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="9"
+    fill="#FF7A83">
+    Security
+  </text>
+
+
+  <line
+    x1="650"
+    y1="707"
+    x2="1125"
+    y2="707"
+    stroke="#40171D"
+  />
+
+  <text
+    x="650"
+    y="730"
+    font-family="monospace"
+    font-size="9"
+    fill="#786366">
+    PAYMENT INTEGRATION
+  </text>
+
+  <text
+    x="1105"
+    y="730"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="10"
+    font-weight="700"
+    fill="#FF4654">
+    ENTERPRISE ↗
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- FOOTER -->
+  <!-- ===================================================== -->
+
+  <line
+    x1="45"
+    y1="790"
+    x2="1155"
+    y2="790"
+    stroke="#19313F"
+  />
+
+  <circle
+    cx="60"
+    cy="810"
+    r="3"
+    fill="#27C93F">
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <text
+    x="72"
+    y="814"
+    font-family="monospace"
+    font-size="9"
+    fill="#526D7C">
+    BUILDING PRODUCTS • SOLVING REAL PROBLEMS
+  </text>
+
+  <text
+    x="1140"
+    y="814"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="9"
+    fill="#526D7C">
+    umud-guliyev / projects
+  </text>
+
+</svg>
