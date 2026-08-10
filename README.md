@@ -81,3 +81,15 @@
 </div>
 
 <br>
+
+<div align="center">
+
+  <img
+    src="./assets/connect.svg"
+    width="100%"
+    alt="Umud Guliyev GitHub Connect"
+  />
+
+</div>
+
+<br>
