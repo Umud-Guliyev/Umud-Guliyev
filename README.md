@@ -8,6 +8,8 @@
 
 </div>
 
+<br>
+
 <div align="center">
   <img
     src="./assets/about.svg"
@@ -15,3 +17,5 @@
     alt="About Umud Guliyev"
   />
 </div>
+
+<br>
