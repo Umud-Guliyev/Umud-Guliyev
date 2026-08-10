@@ -1,0 +1,719 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="620"
+  viewBox="0 0 1200 620"
+  role="img"
+  aria-label="Umud Guliyev — GitHub Contribution and Streak"
+>
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!-- BACKGROUND -->
+    <!-- ================================================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050B12"/>
+      <stop offset="50%" stop-color="#091722"/>
+      <stop offset="100%" stop-color="#171128"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- ACCENT -->
+    <!-- ================================================= -->
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16C7FF"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- GLOW -->
+    <!-- ================================================= -->
+
+    <radialGradient id="cyanGlow">
+      <stop offset="0%" stop-color="#16C7FF" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#16C7FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orangeGlow">
+      <stop offset="0%" stop-color="#F97316" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ================================================= -->
+    <!-- CARD -->
+    <!-- ================================================= -->
+
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1926"/>
+      <stop offset="100%" stop-color="#08131D"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15506A"/>
+      <stop offset="48%" stop-color="#1B3448"/>
+      <stop offset="100%" stop-color="#543B78"/>
+    </linearGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+
+  <rect
+    x="0"
+    y="0"
+    width="1200"
+    height="620"
+    rx="18"
+    fill="url(#bg)"
+  />
+
+  <circle
+    cx="1050"
+    cy="100"
+    r="210"
+    fill="url(#purpleGlow)"
+  >
+    <animate
+      attributeName="r"
+      values="190;225;190"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values=".4;.85;.4"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle
+    cx="120"
+    cy="520"
+    r="190"
+    fill="url(#cyanGlow)"
+  >
+    <animate
+      attributeName="r"
+      values="165;205;165"
+      dur="7s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle
+    cx="610"
+    cy="330"
+    r="150"
+    fill="url(#orangeGlow)"
+  >
+    <animate
+      attributeName="r"
+      values="135;165;135"
+      dur="9s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- TERMINAL HEADER -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="48"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="600"
+    fill="#5D7385"
+  >
+    umud@github:~
+  </text>
+
+  <text
+    x="55"
+    y="82"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#29C4FF"
+  >
+    &gt; contribution.track
+  </text>
+
+  <rect
+    x="235"
+    y="66"
+    width="3"
+    height="20"
+    rx="1"
+    fill="#19C8FF"
+  >
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!-- TITLE -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="132"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    font-weight="800"
+    letter-spacing="1"
+    fill="#FFFFFF"
+  >
+    06 CONTRIBUTION / STREAK
+  </text>
+
+  <text
+    x="55"
+    y="160"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    font-weight="500"
+    fill="#7890A2"
+  >
+    Consistency • contribution history • developer activity
+  </text>
+
+  <rect
+    x="55"
+    y="177"
+    width="1090"
+    height="1"
+    fill="url(#accent)"
+    opacity=".45"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- CURRENT STREAK -->
+  <!-- ================================================= -->
+
+  <rect
+    x="55"
+    y="205"
+    width="350"
+    height="150"
+    rx="14"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <text
+    x="82"
+    y="237"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    CURRENT STREAK
+  </text>
+
+  <text
+    x="82"
+    y="300"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="56"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    7
+  </text>
+
+  <text
+    x="142"
+    y="299"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#7CDBFF"
+  >
+    DAYS
+  </text>
+
+  <!-- streak indicator -->
+
+  <circle
+    cx="337"
+    cy="250"
+    r="24"
+    fill="#0D2632"
+    stroke="#16C7FF"
+    stroke-width="1"
+  />
+
+  <text
+    x="337"
+    y="258"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    fill="#38CFFF"
+  >
+    ↗
+  </text>
+
+  <text
+    x="82"
+    y="328"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#60788A"
+  >
+    keeping the build moving
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- LONGEST STREAK -->
+  <!-- ================================================= -->
+
+  <rect
+    x="425"
+    y="205"
+    width="350"
+    height="150"
+    rx="14"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <text
+    x="452"
+    y="237"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    LONGEST STREAK
+  </text>
+
+  <text
+    x="452"
+    y="300"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="56"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    42
+  </text>
+
+  <text
+    x="522"
+    y="299"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#A78BFA"
+  >
+    DAYS
+  </text>
+
+  <rect
+    x="452"
+    y="320"
+    width="275"
+    height="3"
+    rx="2"
+    fill="#152633"
+  />
+
+  <rect
+    x="452"
+    y="320"
+    width="208"
+    height="3"
+    rx="2"
+    fill="url(#purple)"
+  >
+    <animate
+      attributeName="width"
+      values="180;230;180"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!-- CONTRIBUTIONS -->
+  <!-- ================================================= -->
+
+  <rect
+    x="795"
+    y="205"
+    width="350"
+    height="150"
+    rx="14"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <text
+    x="822"
+    y="237"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    CONTRIBUTIONS
+  </text>
+
+  <text
+    x="822"
+    y="300"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="56"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    1,024
+  </text>
+
+  <text
+    x="822"
+    y="328"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#60788A"
+  >
+    contributions this year
+  </text>
+
+  <circle
+    cx="1100"
+    cy="250"
+    r="6"
+    fill="#22C55E"
+  >
+    <animate
+      attributeName="opacity"
+      values=".25;1;.25"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- ACTIVITY GRAPH -->
+  <!-- ================================================= -->
+
+  <rect
+    x="55"
+    y="380"
+    width="1090"
+    height="155"
+    rx="14"
+    fill="url(#card)"
+    stroke="url(#border)"
+    stroke-width="1"
+  />
+
+  <text
+    x="82"
+    y="414"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#38CFFF"
+  >
+    CONTRIBUTION RHYTHM
+  </text>
+
+  <text
+    x="82"
+    y="436"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    fill="#60788A"
+  >
+    weekly development intensity
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- GRAPH BASE -->
+  <!-- ================================================= -->
+
+  <line
+    x1="82"
+    y1="500"
+    x2="1115"
+    y2="500"
+    stroke="#16303F"
+    stroke-width="1"
+  />
+
+  <line
+    x1="82"
+    y1="475"
+    x2="1115"
+    y2="475"
+    stroke="#102632"
+    stroke-width="1"
+  />
+
+  <line
+    x1="82"
+    y1="450"
+    x2="1115"
+    y2="450"
+    stroke="#102632"
+    stroke-width="1"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- GRAPH -->
+  <!-- ================================================= -->
+
+  <polyline
+    points="
+      82,491
+      125,478
+      168,486
+      211,460
+      254,472
+      297,446
+      340,455
+      383,438
+      426,450
+      469,425
+      512,438
+      555,417
+      598,429
+      641,405
+      684,418
+      727,396
+      770,410
+      813,390
+      856,403
+      899,383
+      942,397
+      985,374
+      1028,388
+      1071,365
+      1115,378
+    "
+    fill="none"
+    stroke="url(#accent)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <animate
+      attributeName="opacity"
+      values=".55;1;.55"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </polyline>
+
+
+  <!-- ================================================= -->
+  <!-- GRAPH DOTS -->
+  <!-- ================================================= -->
+
+  <g fill="#38CFFF">
+
+    <circle cx="82" cy="491" r="3"/>
+    <circle cx="211" cy="460" r="3"/>
+    <circle cx="340" cy="455" r="3"/>
+    <circle cx="469" cy="425" r="3"/>
+    <circle cx="598" cy="429" r="3"/>
+    <circle cx="727" cy="396" r="3"/>
+    <circle cx="856" cy="403" r="3"/>
+    <circle cx="985" cy="374" r="3"/>
+    <circle cx="1115" cy="378" r="3"/>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- GRAPH LABELS -->
+  <!-- ================================================= -->
+
+  <text
+    x="82"
+    y="518"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#536B7B"
+  >
+    JAN
+  </text>
+
+  <text
+    x="340"
+    y="518"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#536B7B"
+  >
+    MAR
+  </text>
+
+  <text
+    x="598"
+    y="518"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#536B7B"
+  >
+    JUN
+  </text>
+
+  <text
+    x="856"
+    y="518"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#536B7B"
+  >
+    SEP
+  </text>
+
+  <text
+    x="1090"
+    y="518"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    fill="#536B7B"
+  >
+    DEC
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- FOOTER -->
+  <!-- ================================================= -->
+
+  <rect
+    x="55"
+    y="560"
+    width="1090"
+    height="1"
+    fill="url(#accent)"
+    opacity=".3"
+  />
+
+  <text
+    x="55"
+    y="588"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="700"
+    letter-spacing="1.8"
+    fill="#36C8FF"
+  >
+    CONSISTENCY • CODE • PROGRESS
+  </text>
+
+  <text
+    x="1145"
+    y="588"
+    text-anchor="end"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="600"
+    fill="#60788A"
+  >
+    umud-guliyev / contribution
+  </text>
+
+  <!-- floating particles -->
+
+  <circle
+    cx="1080"
+    cy="170"
+    r="3"
+    fill="#19C8FF"
+  >
+    <animate
+      attributeName="cy"
+      values="170;157;170"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle
+    cx="1110"
+    cy="365"
+    r="3"
+    fill="#9B5CFF"
+  >
+    <animate
+      attributeName="cy"
+      values="365;352;365"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values=".2;.8;.2"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+</svg>
