@@ -41,3 +41,13 @@
 </div>
 
 <br>
+
+<div align="center">
+  <img
+    src="./assets/stats"
+    width="100%"
+    alt="Umud Guliyev Stats"
+  />
+</div>
+
+<br>
