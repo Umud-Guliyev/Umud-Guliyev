@@ -1,0 +1,243 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="430"
+  viewBox="0 0 1200 430"
+  role="img"
+  aria-label="Umud Guliyev — GitHub Contribution Snake"
+>
+
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#071522"/>
+    <stop offset="55%" stop-color="#0B1928"/>
+    <stop offset="100%" stop-color="#171329"/>
+  </linearGradient>
+
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1495C7"/>
+    <stop offset="45%" stop-color="#24506D"/>
+    <stop offset="100%" stop-color="#7548AD"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#16C7FF"/>
+    <stop offset="55%" stop-color="#38BDF8"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <radialGradient id="cyanGlow">
+    <stop offset="0%" stop-color="#16C7FF" stop-opacity=".16"/>
+    <stop offset="100%" stop-color="#16C7FF" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="purpleGlow">
+    <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".16"/>
+    <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+
+</defs>
+
+<!-- Background -->
+
+<rect
+  x="0"
+  y="0"
+  width="1200"
+  height="430"
+  rx="18"
+  fill="url(#bg)"
+/>
+
+<!-- Ambient glow -->
+
+<circle
+  cx="1050"
+  cy="80"
+  r="190"
+  fill="url(#purpleGlow)"
+>
+
+  <animate
+    attributeName="r"
+    values="170;205;170"
+    dur="7s"
+    repeatCount="indefinite"
+  />
+
+</circle>
+
+<circle
+  cx="120"
+  cy="390"
+  r="170"
+  fill="url(#cyanGlow)"
+>
+
+  <animate
+    attributeName="r"
+    values="145;185;145"
+    dur="6s"
+    repeatCount="indefinite"
+  />
+
+</circle>
+
+<!-- Outer border -->
+
+<rect
+  x="1.5"
+  y="1.5"
+  width="1197"
+  height="427"
+  rx="17"
+  fill="none"
+  stroke="url(#border)"
+  stroke-width="2"
+/>
+
+<!-- Terminal -->
+
+<text
+  x="48"
+  y="43"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="13"
+  font-weight="600"
+  fill="#60788A"
+>
+  umud@github:~
+</text>
+
+<text
+  x="48"
+  y="76"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="17"
+  font-weight="700"
+  fill="#29C4FF"
+>
+  &gt; contribution.snake
+</text>
+
+<rect
+  x="224"
+  y="57"
+  width="3"
+  height="21"
+  rx="1"
+  fill="#19C8FF"
+>
+  <animate
+    attributeName="opacity"
+    values="1;0;1"
+    dur="1s"
+    repeatCount="indefinite"
+  />
+</rect>
+
+<!-- Heading -->
+
+<text
+  x="48"
+  y="123"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="30"
+  font-weight="800"
+  fill="#FFFFFF"
+>
+  GitHub Contribution Snake
+</text>
+
+<text
+  x="48"
+  y="151"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  fill="#62D7FF"
+>
+  Eating contributions • one commit at a time
+</text>
+
+<!-- Snake container -->
+
+<rect
+  x="42"
+  y="177"
+  width="1116"
+  height="185"
+  rx="13"
+  fill="#050D15"
+  fill-opacity=".82"
+  stroke="url(#accent)"
+  stroke-opacity=".20"
+  stroke-width="1"
+/>
+
+<!-- Generated snake goes here -->
+
+<text
+  x="600"
+  y="273"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="13"
+  fill="#526A7A"
+>
+  LIVE CONTRIBUTION GRID
+</text>
+
+<!-- Status -->
+
+<circle
+  cx="48"
+  cy="398"
+  r="5"
+  fill="#22C55E"
+>
+
+  <animate
+    attributeName="opacity"
+    values="1;.3;1"
+    dur="2s"
+    repeatCount="indefinite"
+  />
+
+</circle>
+
+<text
+  x="63"
+  y="403"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="10"
+  font-weight="700"
+  letter-spacing="1.5"
+  fill="#7EE787"
+>
+  CONTRIBUTIONS ACTIVE
+</text>
+
+<text
+  x="1150"
+  y="403"
+  text-anchor="end"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="10"
+  font-weight="700"
+  letter-spacing="1.2"
+  fill="#526A7A"
+>
+  COMMIT • PUSH • REPEAT
+</text>
+
+<rect
+  x="48"
+  y="416"
+  width="1104"
+  height="1"
+  fill="url(#accent)"
+  opacity=".28"
+/>
+
+</svg>
