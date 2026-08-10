@@ -1,0 +1,1794 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="1160"
+     viewBox="0 0 1200 1160"
+     role="img"
+     aria-label="Umud Guliyev Technology Stack">
+
+  <defs>
+
+    <!-- ========================================================= -->
+    <!-- BACKGROUND -->
+    <!-- ========================================================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111c"/>
+      <stop offset="48%" stop-color="#0a1520"/>
+      <stop offset="100%" stop-color="#171127"/>
+    </linearGradient>
+
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1495c7"/>
+      <stop offset="45%" stop-color="#24506d"/>
+      <stop offset="100%" stop-color="#7548ad"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+
+    <linearGradient id="multi" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16c7ff"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <radialGradient id="cyanGlow">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+  </defs>
+
+
+  <!-- ========================================================= -->
+  <!-- MAIN BACKGROUND -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="8"
+    y="8"
+    width="1184"
+    height="1144"
+    rx="30"
+    fill="url(#bg)"
+    stroke="url(#border)"
+    stroke-width="1.5"
+  />
+
+  <ellipse
+    cx="1030"
+    cy="170"
+    rx="280"
+    ry="180"
+    fill="url(#cyanGlow)"
+  />
+
+  <ellipse
+    cx="160"
+    cy="980"
+    rx="300"
+    ry="190"
+    fill="url(#purpleGlow)"
+  />
+
+
+  <!-- ========================================================= -->
+  <!-- TERMINAL HEADER -->
+  <!-- ========================================================= -->
+
+  <circle cx="45" cy="45" r="6" fill="#ff5f56"/>
+  <circle cx="65" cy="45" r="6" fill="#ffbd2e"/>
+  <circle cx="85" cy="45" r="6" fill="#27c93f"/>
+
+  <text
+    x="108"
+    y="50"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="600"
+    fill="#66808f">
+    umud@github:~
+  </text>
+
+  <text
+    x="1148"
+    y="50"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#38bdf8">
+    &gt; stack.scan
+  </text>
+
+  <line
+    x1="32"
+    y1="72"
+    x2="1168"
+    y2="72"
+    stroke="#18394d"
+    stroke-width="1"
+  />
+
+
+  <!-- ========================================================= -->
+  <!-- TITLE -->
+  <!-- ========================================================= -->
+
+  <text
+    x="50"
+    y="118"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="29"
+    font-weight="800"
+    fill="#edfaff">
+    Technology Stack
+  </text>
+
+  <text
+    x="50"
+    y="145"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    fill="#718795">
+    Full-stack development • mobile • AI &amp; automation • cloud
+  </text>
+
+  <circle
+    cx="1048"
+    cy="111"
+    r="5"
+    fill="#27c93f">
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="1.8s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <text
+    x="1063"
+    y="115"
+    font-family="monospace"
+    font-size="10"
+    fill="#63d58a">
+    STACK ACTIVE
+  </text>
+
+  <line
+    x1="50"
+    y1="166"
+    x2="1150"
+    y2="166"
+    stroke="#18394d"
+    stroke-width="1"
+  />
+
+
+  <!-- ========================================================= -->
+  <!-- PROGRAMMING LANGUAGES -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="45"
+    y="190"
+    width="535"
+    height="190"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="190"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#cyan)"
+  />
+
+  <circle cx="70" cy="220" r="5" fill="#16c7ff"/>
+
+  <text
+    x="87"
+    y="225"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    PROGRAMMING LANGUAGES
+  </text>
+
+  <text
+    x="87"
+    y="244"
+    font-family="monospace"
+    font-size="9"
+    fill="#587383">
+    core languages
+  </text>
+
+  <!-- JavaScript -->
+
+  <text
+    x="65"
+    y="272"
+    font-family="Arial"
+    font-size="11"
+    font-weight="600"
+    fill="#cad9e1">
+    JavaScript
+  </text>
+
+  <rect
+    x="175"
+    y="262"
+    width="365"
+    height="9"
+    rx="4.5"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="262"
+    width="335"
+    height="9"
+    rx="4.5"
+    fill="#f7df1e">
+
+    <animate
+      attributeName="width"
+      values="0;335;320;335"
+      dur="2.6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- TypeScript -->
+
+  <text
+    x="65"
+    y="302"
+    font-family="Arial"
+    font-size="11"
+    font-weight="600"
+    fill="#cad9e1">
+    TypeScript
+  </text>
+
+  <rect
+    x="175"
+    y="292"
+    width="365"
+    height="9"
+    rx="4.5"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="292"
+    width="350"
+    height="9"
+    rx="4.5"
+    fill="url(#blue)">
+
+    <animate
+      attributeName="width"
+      values="0;350;335;350"
+      dur="2.9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Python -->
+
+  <text
+    x="65"
+    y="332"
+    font-family="Arial"
+    font-size="11"
+    font-weight="600"
+    fill="#cad9e1">
+    Python
+  </text>
+
+  <rect
+    x="175"
+    y="322"
+    width="365"
+    height="9"
+    rx="4.5"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="322"
+    width="315"
+    height="9"
+    rx="4.5"
+    fill="url(#blue)">
+
+    <animate
+      attributeName="width"
+      values="0;315;300;315"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <text
+    x="65"
+    y="360"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    03 languages detected
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- FRONTEND -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="620"
+    y="190"
+    width="535"
+    height="190"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="620"
+    y="190"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#cyan)"
+  />
+
+  <circle cx="645" cy="220" r="5" fill="#16c7ff"/>
+
+  <text
+    x="662"
+    y="225"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    FRONTEND
+  </text>
+
+  <text
+    x="662"
+    y="244"
+    font-family="monospace"
+    font-size="9"
+    fill="#587383">
+    modern web interfaces
+  </text>
+
+
+  <!-- React -->
+
+  <text
+    x="640"
+    y="270"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    React
+  </text>
+
+  <rect
+    x="730"
+    y="262"
+    width="380"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="730"
+    y="262"
+    width="350"
+    height="8"
+    rx="4"
+    fill="url(#cyan)">
+
+    <animate
+      attributeName="width"
+      values="0;350;335;350"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Next.js -->
+
+  <text
+    x="640"
+    y="294"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Next.js
+  </text>
+
+  <rect
+    x="730"
+    y="286"
+    width="380"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="730"
+    y="286"
+    width="330"
+    height="8"
+    rx="4"
+    fill="url(#cyan)">
+
+    <animate
+      attributeName="width"
+      values="0;330;315;330"
+      dur="2.8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- HTML5 -->
+
+  <text
+    x="640"
+    y="318"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    HTML5
+  </text>
+
+  <rect
+    x="730"
+    y="310"
+    width="380"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="730"
+    y="310"
+    width="305"
+    height="8"
+    rx="4"
+    fill="url(#orange)">
+
+    <animate
+      attributeName="width"
+      values="0;305;292;305"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- CSS3 -->
+
+  <text
+    x="640"
+    y="342"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    CSS3
+  </text>
+
+  <rect
+    x="730"
+    y="334"
+    width="380"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="730"
+    y="334"
+    width="300"
+    height="8"
+    rx="4"
+    fill="url(#blue)">
+
+    <animate
+      attributeName="width"
+      values="0;300;288;300"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <text
+    x="640"
+    y="362"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    + Tailwind CSS • Redux Toolkit • Framer Motion
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- BACKEND -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="45"
+    y="400"
+    width="535"
+    height="225"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="400"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#purple)"
+  />
+
+  <circle cx="70" cy="430" r="5" fill="#8b5cf6"/>
+
+  <text
+    x="87"
+    y="435"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    BACKEND
+  </text>
+
+  <text
+    x="87"
+    y="454"
+    font-family="monospace"
+    font-size="9"
+    fill="#587383">
+    APIs / application services
+  </text>
+
+
+  <!-- Node.js -->
+
+  <text
+    x="65"
+    y="482"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Node.js
+  </text>
+
+  <rect
+    x="155"
+    y="474"
+    width="385"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="155"
+    y="474"
+    width="355"
+    height="8"
+    rx="4"
+    fill="url(#green)">
+
+    <animate
+      attributeName="width"
+      values="0;355;340;355"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Express.js -->
+
+  <text
+    x="65"
+    y="508"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Express.js
+  </text>
+
+  <rect
+    x="155"
+    y="500"
+    width="385"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="155"
+    y="500"
+    width="320"
+    height="8"
+    rx="4"
+    fill="url(#purple)">
+
+    <animate
+      attributeName="width"
+      values="0;320;305;320"
+      dur="2.8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- FastAPI -->
+
+  <text
+    x="65"
+    y="534"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    FastAPI
+  </text>
+
+  <rect
+    x="155"
+    y="526"
+    width="385"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="155"
+    y="526"
+    width="275"
+    height="8"
+    rx="4"
+    fill="url(#cyan)">
+
+    <animate
+      attributeName="width"
+      values="0;275;262;275"
+      dur="3.1s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Django -->
+
+  <text
+    x="65"
+    y="560"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Django
+  </text>
+
+  <rect
+    x="155"
+    y="552"
+    width="385"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="155"
+    y="552"
+    width="250"
+    height="8"
+    rx="4"
+    fill="url(#green)">
+
+    <animate
+      attributeName="width"
+      values="0;250;238;250"
+      dur="3.4s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- REST APIs -->
+
+  <text
+    x="65"
+    y="586"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    REST APIs
+  </text>
+
+  <rect
+    x="155"
+    y="578"
+    width="385"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="155"
+    y="578"
+    width="345"
+    height="8"
+    rx="4"
+    fill="url(#cyan)">
+
+    <animate
+      attributeName="width"
+      values="0;345;330;345"
+      dur="3.6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <text
+    x="65"
+    y="608"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    production-ready backend architecture
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- MOBILE -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="620"
+    y="400"
+    width="535"
+    height="225"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="620"
+    y="400"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#blue)"
+  />
+
+  <circle cx="645" cy="430" r="5" fill="#3b82f6"/>
+
+  <text
+    x="662"
+    y="435"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    MOBILE
+  </text>
+
+  <text
+    x="662"
+    y="454"
+    font-family="monospace"
+    font-size="9"
+    fill="#587383">
+    cross-platform applications
+  </text>
+
+
+  <!-- Flutter -->
+
+  <text
+    x="640"
+    y="482"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Flutter
+  </text>
+
+  <rect
+    x="730"
+    y="474"
+    width="380"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="730"
+    y="474"
+    width="350"
+    height="8"
+    rx="4"
+    fill="url(#blue)">
+
+    <animate
+      attributeName="width"
+      values="0;350;335;350"
+      dur="2.6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Firebase -->
+
+  <text
+    x="640"
+    y="510"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Firebase
+  </text>
+
+  <rect
+    x="730"
+    y="502"
+    width="380"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="730"
+    y="502"
+    width="320"
+    height="8"
+    rx="4"
+    fill="#ffca28">
+
+    <animate
+      attributeName="width"
+      values="0;320;305;320"
+      dur="2.9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <text
+    x="640"
+    y="545"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    mobile apps • push notifications
+  </text>
+
+  <text
+    x="640"
+    y="565"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    authentication • cloud services
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- DATABASES -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="45"
+    y="645"
+    width="535"
+    height="225"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="645"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#green)"
+  />
+
+  <circle cx="70" cy="675" r="5" fill="#22c55e"/>
+
+  <text
+    x="87"
+    y="680"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    DATABASES
+  </text>
+
+  <text
+    x="87"
+    y="699"
+    font-family="monospace"
+    font-size="9"
+    fill="#587383">
+    persistence / caching / data
+  </text>
+
+
+  <!-- MongoDB -->
+
+  <text
+    x="65"
+    y="727"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    MongoDB
+  </text>
+
+  <rect
+    x="175"
+    y="719"
+    width="365"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="719"
+    width="345"
+    height="8"
+    rx="4"
+    fill="url(#green)">
+
+    <animate
+      attributeName="width"
+      values="0;345;330;345"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- PostgreSQL -->
+
+  <text
+    x="65"
+    y="753"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    PostgreSQL
+  </text>
+
+  <rect
+    x="175"
+    y="745"
+    width="365"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="745"
+    width="300"
+    height="8"
+    rx="4"
+    fill="url(#blue)">
+
+    <animate
+      attributeName="width"
+      values="0;300;287;300"
+      dur="2.9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Redis -->
+
+  <text
+    x="65"
+    y="779"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Redis
+  </text>
+
+  <rect
+    x="175"
+    y="771"
+    width="365"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="771"
+    width="290"
+    height="8"
+    rx="4"
+    fill="#ef4444">
+
+    <animate
+      attributeName="width"
+      values="0;290;277;290"
+      dur="3.2s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Firestore -->
+
+  <text
+    x="65"
+    y="805"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Firebase Firestore
+  </text>
+
+  <rect
+    x="175"
+    y="797"
+    width="365"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="175"
+    y="797"
+    width="270"
+    height="8"
+    rx="4"
+    fill="#ffca28">
+
+    <animate
+      attributeName="width"
+      values="0;270;258;270"
+      dur="3.5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ========================================================= -->
+  <!-- AI & AUTOMATION -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="620"
+    y="645"
+    width="535"
+    height="365"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="620"
+    y="645"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#multi)"
+  />
+
+  <circle cx="645" cy="675" r="5" fill="#16c7ff"/>
+
+  <text
+    x="662"
+    y="680"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    AI &amp; AUTOMATION
+  </text>
+
+  <text
+    x="662"
+    y="699"
+    font-family="monospace"
+    font-size="9"
+    fill="#587383">
+    intelligence / agents / workflows
+  </text>
+
+
+  <!-- OpenAI -->
+
+  <text
+    x="640"
+    y="727"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    OpenAI
+  </text>
+
+  <rect
+    x="755"
+    y="719"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="719"
+    width="330"
+    height="8"
+    rx="4"
+    fill="url(#green)">
+
+    <animate
+      attributeName="width"
+      values="0;330;315;330"
+      dur="2.5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Gemini -->
+
+  <text
+    x="640"
+    y="753"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Gemini
+  </text>
+
+  <rect
+    x="755"
+    y="745"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="745"
+    width="300"
+    height="8"
+    rx="4"
+    fill="url(#blue)">
+
+    <animate
+      attributeName="width"
+      values="0;300;287;300"
+      dur="2.8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Claude -->
+
+  <text
+    x="640"
+    y="779"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Claude
+  </text>
+
+  <rect
+    x="755"
+    y="771"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="771"
+    width="295"
+    height="8"
+    rx="4"
+    fill="url(#orange)">
+
+    <animate
+      attributeName="width"
+      values="0;295;282;295"
+      dur="3.1s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- LangChain -->
+
+  <text
+    x="640"
+    y="805"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    LangChain
+  </text>
+
+  <rect
+    x="755"
+    y="797"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="797"
+    width="285"
+    height="8"
+    rx="4"
+    fill="url(#green)">
+
+    <animate
+      attributeName="width"
+      values="0;285;272;285"
+      dur="3.3s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- RAG -->
+
+  <text
+    x="640"
+    y="831"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    RAG
+  </text>
+
+  <rect
+    x="755"
+    y="823"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="823"
+    width="275"
+    height="8"
+    rx="4"
+    fill="url(#purple)">
+
+    <animate
+      attributeName="width"
+      values="0;275;262;275"
+      dur="3.5s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- AI Agents -->
+
+  <text
+    x="640"
+    y="857"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    AI Agents
+  </text>
+
+  <rect
+    x="755"
+    y="849"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="849"
+    width="305"
+    height="8"
+    rx="4"
+    fill="url(#multi)">
+
+    <animate
+      attributeName="width"
+      values="0;305;290;305"
+      dur="3.7s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- Prompt Engineering -->
+
+  <text
+    x="640"
+    y="883"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    Prompt Engineering
+  </text>
+
+  <rect
+    x="755"
+    y="875"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="875"
+    width="320"
+    height="8"
+    rx="4"
+    fill="url(#purple)">
+
+    <animate
+      attributeName="width"
+      values="0;320;305;320"
+      dur="3.9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- n8n -->
+
+  <text
+    x="640"
+    y="909"
+    font-family="Arial"
+    font-size="10"
+    font-weight="600"
+    fill="#cad9e1">
+    n8n
+  </text>
+
+  <rect
+    x="755"
+    y="901"
+    width="355"
+    height="8"
+    rx="4"
+    fill="#25343a"
+  />
+
+  <rect
+    x="755"
+    y="901"
+    width="280"
+    height="8"
+    rx="4"
+    fill="#ea4b71">
+
+    <animate
+      attributeName="width"
+      values="0;280;267;280"
+      dur="4.1s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+  <text
+    x="640"
+    y="942"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    LLMs • RAG pipelines • autonomous workflows
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- DEVOPS & CLOUD -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="45"
+    y="890"
+    width="535"
+    height="120"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="890"
+    width="535"
+    height="2"
+    rx="1"
+    fill="url(#orange)"
+  />
+
+  <circle cx="70" cy="920" r="5" fill="#38bdf8"/>
+
+  <text
+    x="87"
+    y="925"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    DEVOPS &amp; CLOUD
+  </text>
+
+  <text
+    x="65"
+    y="954"
+    font-family="monospace"
+    font-size="10"
+    fill="#8aa0ad">
+    Git • GitHub • Docker • Linux • Nginx
+  </text>
+
+  <text
+    x="65"
+    y="976"
+    font-family="monospace"
+    font-size="10"
+    fill="#8aa0ad">
+    CI/CD • Vercel • Railway • Render
+  </text>
+
+  <circle
+    cx="540"
+    cy="957"
+    r="3"
+    fill="#27c93f">
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+  </circle>
+
+
+  <!-- ========================================================= -->
+  <!-- PROFESSIONAL SKILLS — FULL WIDTH -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="45"
+    y="1030"
+    width="1110"
+    height="90"
+    rx="20"
+    fill="#081521"
+    stroke="#164b64"
+    stroke-width="1"
+  />
+
+  <rect
+    x="45"
+    y="1030"
+    width="1110"
+    height="2"
+    rx="1"
+    fill="url(#multi)"
+  />
+
+  <circle
+    cx="70"
+    cy="1058"
+    r="5"
+    fill="#16c7ff">
+
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="1.8s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text
+    x="87"
+    y="1063"
+    font-family="Arial"
+    font-size="16"
+    font-weight="800"
+    fill="#e9f8fd">
+    PROFESSIONAL SKILLS
+  </text>
+
+  <text
+    x="65"
+    y="1087"
+    font-family="monospace"
+    font-size="10"
+    fill="#8096a3">
+    Technical Leadership • System Design • Product Strategy • Agile / Scrum
+  </text>
+
+  <text
+    x="65"
+    y="1106"
+    font-family="monospace"
+    font-size="10"
+    fill="#8096a3">
+    Cross-functional Collaboration • Problem Solving
+  </text>
+
+  <circle
+    cx="1125"
+    cy="1060"
+    r="4"
+    fill="#27c93f">
+
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text
+    x="1140"
+    y="1064"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="9"
+    fill="#4f6b7b">
+    CORE SKILLS
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- ANIMATED SCAN LINE -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="50"
+    y="168"
+    width="2"
+    height="950"
+    fill="#16c7ff"
+    opacity="0">
+
+    <animate
+      attributeName="x"
+      values="50;1150;50"
+      dur="11s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values="0;.18;0"
+      dur="11s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ========================================================= -->
+  <!-- FLOATING STATUS DOTS -->
+  <!-- ========================================================= -->
+
+  <circle
+    cx="595"
+    cy="170"
+    r="3"
+    fill="#16c7ff">
+
+    <animate
+      attributeName="cy"
+      values="170;158;170"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values=".2;1;.2"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle
+    cx="1160"
+    cy="630"
+    r="3"
+    fill="#8b5cf6">
+
+    <animate
+      attributeName="cy"
+      values="630;615;630"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values=".2;.9;.2"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ========================================================= -->
+  <!-- FOOTER -->
+  <!-- ========================================================= -->
+
+  <line
+    x1="45"
+    y1="1128"
+    x2="1155"
+    y2="1128"
+    stroke="#19384b"
+    stroke-width="1"
+  />
+
+  <circle
+    cx="60"
+    cy="1142"
+    r="3"
+    fill="#27c93f">
+
+    <animate
+      attributeName="opacity"
+      values="1;.25;1"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text
+    x="72"
+    y="1146"
+    font-family="monospace"
+    font-size="9"
+    fill="#526d7c">
+    27 technologies • continuously evolving
+  </text>
+
+  <text
+    x="1140"
+    y="1146"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="9"
+    fill="#526d7c">
+    umud-guliyev / stack
+  </text>
+
+</svg>
