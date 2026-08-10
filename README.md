@@ -31,3 +31,13 @@
 </div>
 
 <br>
+
+<div align="center">
+  <img
+    src="./assets/projects"
+    width="100%"
+    alt="Umud Guliyev Projects"
+  />
+</div>
+
+<br>
