@@ -1,0 +1,701 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="380"
+  viewBox="0 0 1200 380"
+  role="img"
+  aria-label="Umud Guliyev — Connect and Socials"
+>
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!-- BACKGROUND — HERO REFERENCE -->
+    <!-- ================================================= -->
+
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071522"/>
+      <stop offset="52%" stop-color="#0B1B2B"/>
+      <stop offset="100%" stop-color="#211337"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- CYAN / PURPLE ACCENT -->
+    <!-- ================================================= -->
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16C7FF"/>
+      <stop offset="52%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- NAME / TEXT -->
+    <!-- ================================================= -->
+
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22C7FF"/>
+      <stop offset="100%" stop-color="#63C8FF"/>
+    </linearGradient>
+
+    <!-- ================================================= -->
+    <!-- GLOWS -->
+    <!-- ================================================= -->
+
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyanGlow">
+      <stop offset="0%" stop-color="#00C8FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00C8FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- ================================================= -->
+    <!-- CARD -->
+    <!-- ================================================= -->
+
+    <linearGradient id="cardBackground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1B2B" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#081522" stop-opacity="0.96"/>
+    </linearGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+
+  <rect
+    x="0"
+    y="0"
+    width="1200"
+    height="380"
+    rx="18"
+    fill="url(#background)"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- AMBIENT GLOW -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="1080"
+    cy="85"
+    r="175"
+    fill="url(#purpleGlow)"
+  >
+
+    <animate
+      attributeName="r"
+      values="150;185;150"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.6;1;0.6"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <circle
+    cx="100"
+    cy="320"
+    r="145"
+    fill="url(#cyanGlow)"
+  >
+
+    <animate
+      attributeName="r"
+      values="120;155;120"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- FLOATING PARTICLES -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="610"
+    cy="42"
+    r="4"
+    fill="#19C8FF"
+  >
+
+    <animateMotion
+      dur="5s"
+      repeatCount="indefinite"
+      path="M0,0 C-90,-35 -210,-15 -360,25"
+    />
+
+  </circle>
+
+
+  <circle
+    cx="1090"
+    cy="55"
+    r="5"
+    fill="#19C8FF"
+  >
+
+    <animate
+      attributeName="cy"
+      values="55;42;55"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <circle
+    cx="1130"
+    cy="285"
+    r="3"
+    fill="#9B5CFF"
+  >
+
+    <animate
+      attributeName="cy"
+      values="285;270;285"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.2;0.8;0.2"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <!-- ================================================= -->
+  <!-- TERMINAL -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="42"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="600"
+    fill="#60788A"
+  >
+    umud@github:~
+  </text>
+
+
+  <text
+    x="55"
+    y="75"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#29C4FF"
+  >
+    &gt; connect.scan
+  </text>
+
+
+  <rect
+    x="180"
+    y="57"
+    width="3"
+    height="21"
+    rx="1"
+    fill="#19C8FF"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+
+  </rect>
+
+
+  <!-- ================================================= -->
+  <!-- SECTION TITLE -->
+  <!-- ================================================= -->
+
+  <text
+    x="55"
+    y="117"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="30"
+    font-weight="800"
+    fill="#FFFFFF"
+  >
+    Connect
+  </text>
+
+
+  <text
+    x="55"
+    y="143"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    fill="#62D7FF"
+  >
+    Find me across the web • Let's build something together
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- GITHUB CARD -->
+  <!-- ================================================= -->
+
+  <a
+    href="https://github.com/Umud-Guliyev"
+    target="_blank"
+  >
+
+    <rect
+      x="55"
+      y="175"
+      width="250"
+      height="135"
+      rx="14"
+      fill="url(#cardBackground)"
+      stroke="#16445A"
+      stroke-width="1"
+    />
+
+    <rect
+      x="55"
+      y="175"
+      width="250"
+      height="2"
+      rx="1"
+      fill="url(#accent)"
+    />
+
+
+    <circle
+      cx="91"
+      cy="216"
+      r="22"
+      fill="#081522"
+      stroke="url(#accent)"
+      stroke-width="2"
+    >
+
+      <animate
+        attributeName="stroke-width"
+        values="1.5;2.5;1.5"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+
+    </circle>
+
+
+    <text
+      x="91"
+      y="223"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18"
+      font-weight="800"
+      fill="url(#accent)"
+    >
+      GH
+    </text>
+
+
+    <text
+      x="125"
+      y="213"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="16"
+      font-weight="800"
+      fill="#FFFFFF"
+    >
+      GitHub
+    </text>
+
+
+    <text
+      x="125"
+      y="233"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      fill="#718899"
+    >
+      @Umud-Guliyev
+    </text>
+
+
+    <text
+      x="78"
+      y="278"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="700"
+      letter-spacing="1.4"
+      fill="#38CFFF"
+    >
+      VIEW PROFILE →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- LINKEDIN CARD -->
+  <!-- ================================================= -->
+
+  <a
+    href="https://www.linkedin.com/in/umudguliyev/"
+    target="_blank"
+  >
+
+    <rect
+      x="325"
+      y="175"
+      width="250"
+      height="135"
+      rx="14"
+      fill="url(#cardBackground)"
+      stroke="#16445A"
+      stroke-width="1"
+    />
+
+    <rect
+      x="325"
+      y="175"
+      width="250"
+      height="2"
+      rx="1"
+      fill="#38BDF8"
+    />
+
+
+    <circle
+      cx="361"
+      cy="216"
+      r="22"
+      fill="#081522"
+      stroke="#38BDF8"
+      stroke-width="2"
+    />
+
+
+    <text
+      x="361"
+      y="223"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18"
+      font-weight="800"
+      fill="#38BDF8"
+    >
+      in
+    </text>
+
+
+    <text
+      x="395"
+      y="213"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="16"
+      font-weight="800"
+      fill="#FFFFFF"
+    >
+      LinkedIn
+    </text>
+
+
+    <text
+      x="395"
+      y="233"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      fill="#718899"
+    >
+      Professional Network
+    </text>
+
+
+    <text
+      x="348"
+      y="278"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="700"
+      letter-spacing="1.4"
+      fill="#38BDF8"
+    >
+      CONNECT →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- PORTFOLIO CARD -->
+  <!-- ================================================= -->
+
+  <a
+    href="https://www.umudguliyev.com/"
+    target="_blank"
+  >
+
+    <rect
+      x="595"
+      y="175"
+      width="250"
+      height="135"
+      rx="14"
+      fill="url(#cardBackground)"
+      stroke="#16445A"
+      stroke-width="1"
+    />
+
+    <rect
+      x="595"
+      y="175"
+      width="250"
+      height="2"
+      rx="1"
+      fill="url(#accent)"
+    />
+
+
+    <circle
+      cx="631"
+      cy="216"
+      r="22"
+      fill="#081522"
+      stroke="#8B5CF6"
+      stroke-width="2"
+    />
+
+
+    <text
+      x="631"
+      y="223"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="16"
+      font-weight="800"
+      fill="#A78BFA"
+    >
+      UG
+    </text>
+
+
+    <text
+      x="665"
+      y="213"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="16"
+      font-weight="800"
+      fill="#FFFFFF"
+    >
+      Portfolio
+    </text>
+
+
+    <text
+      x="665"
+      y="233"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      fill="#718899"
+    >
+      umudguliyev.com
+    </text>
+
+
+    <text
+      x="618"
+      y="278"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="700"
+      letter-spacing="1.4"
+      fill="#A78BFA"
+    >
+      VIEW PORTFOLIO →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- EMAIL CARD -->
+  <!-- ================================================= -->
+
+  <a
+    href="mailto:umudguliyev@gmail.com"
+  >
+
+    <rect
+      x="865"
+      y="175"
+      width="280"
+      height="135"
+      rx="14"
+      fill="url(#cardBackground)"
+      stroke="#16445A"
+      stroke-width="1"
+    />
+
+    <rect
+      x="865"
+      y="175"
+      width="280"
+      height="2"
+      rx="1"
+      fill="#19C8FF"
+    />
+
+
+    <circle
+      cx="901"
+      cy="216"
+      r="22"
+      fill="#081522"
+      stroke="#19C8FF"
+      stroke-width="2"
+    />
+
+
+    <text
+      x="901"
+      y="223"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18"
+      font-weight="800"
+      fill="#19C8FF"
+    >
+      @
+    </text>
+
+
+    <text
+      x="935"
+      y="213"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="16"
+      font-weight="800"
+      fill="#FFFFFF"
+    >
+      Email
+    </text>
+
+
+    <text
+      x="935"
+      y="233"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="11"
+      fill="#718899"
+    >
+      Let's talk
+    </text>
+
+
+    <text
+      x="888"
+      y="278"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="10"
+      font-weight="700"
+      letter-spacing="1.4"
+      fill="#38CFFF"
+    >
+      SEND MESSAGE →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- STATUS -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="55"
+    cy="345"
+    r="5"
+    fill="#22C55E"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;.3;1"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <text
+    x="70"
+    y="350"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="1.5"
+    fill="#7EE787"
+  >
+    OPEN TO COLLABORATION
+  </text>
+
+
+  <text
+    x="1145"
+    y="350"
+    text-anchor="end"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="1.2"
+    fill="#526A7A"
+  >
+    BUILD • CONNECT • CREATE
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- BOTTOM ACCENT -->
+  <!-- ================================================= -->
+
+  <rect
+    x="55"
+    y="365"
+    width="1090"
+    height="1"
+    fill="url(#accent)"
+    opacity=".28"
+  />
+
+</svg>
