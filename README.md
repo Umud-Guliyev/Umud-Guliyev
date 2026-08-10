@@ -105,3 +105,15 @@
 </div>
 
 <br>
+
+<div align="center">
+
+  <img
+    src="./assets/footer.svg"
+    width="100%"
+    alt="Umud Guliyev GitHub Contribution Footer"
+  />
+
+</div>
+
+<br>
