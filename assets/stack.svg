@@ -7,10 +7,6 @@
 
   <defs>
 
-    <!-- ========================================================= -->
-    <!-- BACKGROUND -->
-    <!-- ========================================================= -->
-
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#07111c"/>
       <stop offset="48%" stop-color="#0a1520"/>
@@ -63,10 +59,6 @@
       <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".15"/>
       <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
-
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="12"/>
-    </filter>
 
   </defs>
 
@@ -166,11 +158,7 @@
     Full-stack development • mobile • AI &amp; automation • cloud
   </text>
 
-  <circle
-    cx="1048"
-    cy="111"
-    r="5"
-    fill="#27c93f">
+  <circle cx="1048" cy="111" r="5" fill="#27c93f">
     <animate
       attributeName="opacity"
       values="1;.25;1"
@@ -242,6 +230,7 @@
     core languages
   </text>
 
+
   <!-- JavaScript -->
 
   <text
@@ -273,9 +262,11 @@
 
     <animate
       attributeName="width"
-      values="0;335;320;335"
-      dur="2.6s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="335"
+      dur="1.4s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -311,9 +302,11 @@
 
     <animate
       attributeName="width"
-      values="0;350;335;350"
-      dur="2.9s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="350"
+      dur="1.5s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -349,9 +342,11 @@
 
     <animate
       attributeName="width"
-      values="0;315;300;315"
-      dur="3.2s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="315"
+      dur="1.6s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -442,9 +437,11 @@
 
     <animate
       attributeName="width"
-      values="0;350;335;350"
-      dur="2.5s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="350"
+      dur="1.4s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -480,9 +477,11 @@
 
     <animate
       attributeName="width"
-      values="0;330;315;330"
-      dur="2.8s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="330"
+      dur="1.5s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -518,9 +517,11 @@
 
     <animate
       attributeName="width"
-      values="0;305;292;305"
-      dur="3s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="305"
+      dur="1.6s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -556,9 +557,11 @@
 
     <animate
       attributeName="width"
-      values="0;300;288;300"
-      dur="3.2s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="300"
+      dur="1.7s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -630,14 +633,7 @@
     Node.js
   </text>
 
-  <rect
-    x="155"
-    y="474"
-    width="385"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="155" y="474" width="385" height="8" rx="4" fill="#25343a"/>
 
   <rect
     x="155"
@@ -649,9 +645,11 @@
 
     <animate
       attributeName="width"
-      values="0;355;340;355"
-      dur="2.5s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="355"
+      dur="1.4s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -668,14 +666,7 @@
     Express.js
   </text>
 
-  <rect
-    x="155"
-    y="500"
-    width="385"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="155" y="500" width="385" height="8" rx="4" fill="#25343a"/>
 
   <rect
     x="155"
@@ -687,9 +678,11 @@
 
     <animate
       attributeName="width"
-      values="0;320;305;320"
-      dur="2.8s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="320"
+      dur="1.5s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -706,14 +699,7 @@
     FastAPI
   </text>
 
-  <rect
-    x="155"
-    y="526"
-    width="385"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="155" y="526" width="385" height="8" rx="4" fill="#25343a"/>
 
   <rect
     x="155"
@@ -725,9 +711,11 @@
 
     <animate
       attributeName="width"
-      values="0;275;262;275"
-      dur="3.1s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="275"
+      dur="1.6s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -744,14 +732,7 @@
     Django
   </text>
 
-  <rect
-    x="155"
-    y="552"
-    width="385"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="155" y="552" width="385" height="8" rx="4" fill="#25343a"/>
 
   <rect
     x="155"
@@ -763,9 +744,11 @@
 
     <animate
       attributeName="width"
-      values="0;250;238;250"
-      dur="3.4s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="250"
+      dur="1.7s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -782,14 +765,7 @@
     REST APIs
   </text>
 
-  <rect
-    x="155"
-    y="578"
-    width="385"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="155" y="578" width="385" height="8" rx="4" fill="#25343a"/>
 
   <rect
     x="155"
@@ -801,9 +777,11 @@
 
     <animate
       attributeName="width"
-      values="0;345;330;345"
-      dur="3.6s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="345"
+      dur="1.8s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -865,76 +843,58 @@
 
   <!-- Flutter -->
 
-  <text
-    x="640"
-    y="482"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="482"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Flutter
   </text>
 
-  <rect
-    x="730"
-    y="474"
-    width="380"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="730" y="474" width="380" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="730"
-    y="474"
-    width="350"
-    height="8"
-    rx="4"
-    fill="url(#blue)">
+  <rect x="730" y="474"
+        width="350"
+        height="8"
+        rx="4"
+        fill="url(#blue)">
 
     <animate
       attributeName="width"
-      values="0;350;335;350"
-      dur="2.6s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="350"
+      dur="1.4s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- Firebase -->
 
-  <text
-    x="640"
-    y="510"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="510"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Firebase
   </text>
 
-  <rect
-    x="730"
-    y="502"
-    width="380"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="730" y="502" width="380" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="730"
-    y="502"
-    width="320"
-    height="8"
-    rx="4"
-    fill="#ffca28">
+  <rect x="730" y="502"
+        width="320"
+        height="8"
+        rx="4"
+        fill="#ffca28">
 
     <animate
       attributeName="width"
-      values="0;320;305;320"
-      dur="2.9s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="320"
+      dur="1.5s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -1005,152 +965,116 @@
 
   <!-- MongoDB -->
 
-  <text
-    x="65"
-    y="727"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="65" y="727"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     MongoDB
   </text>
 
-  <rect
-    x="175"
-    y="719"
-    width="365"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="175" y="719" width="365" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="175"
-    y="719"
-    width="345"
-    height="8"
-    rx="4"
-    fill="url(#green)">
+  <rect x="175" y="719"
+        width="345"
+        height="8"
+        rx="4"
+        fill="url(#green)">
 
     <animate
       attributeName="width"
-      values="0;345;330;345"
-      dur="2.5s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="345"
+      dur="1.4s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- PostgreSQL -->
 
-  <text
-    x="65"
-    y="753"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="65" y="753"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     PostgreSQL
   </text>
 
-  <rect
-    x="175"
-    y="745"
-    width="365"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="175" y="745" width="365" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="175"
-    y="745"
-    width="300"
-    height="8"
-    rx="4"
-    fill="url(#blue)">
+  <rect x="175" y="745"
+        width="300"
+        height="8"
+        rx="4"
+        fill="url(#blue)">
 
     <animate
       attributeName="width"
-      values="0;300;287;300"
-      dur="2.9s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="300"
+      dur="1.5s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- Redis -->
 
-  <text
-    x="65"
-    y="779"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="65" y="779"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Redis
   </text>
 
-  <rect
-    x="175"
-    y="771"
-    width="365"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="175" y="771" width="365" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="175"
-    y="771"
-    width="290"
-    height="8"
-    rx="4"
-    fill="#ef4444">
+  <rect x="175" y="771"
+        width="290"
+        height="8"
+        rx="4"
+        fill="#ef4444">
 
     <animate
       attributeName="width"
-      values="0;290;277;290"
-      dur="3.2s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="290"
+      dur="1.6s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- Firestore -->
 
-  <text
-    x="65"
-    y="805"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="65" y="805"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Firebase Firestore
   </text>
 
-  <rect
-    x="175"
-    y="797"
-    width="365"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="175" y="797" width="365" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="175"
-    y="797"
-    width="270"
-    height="8"
-    rx="4"
-    fill="#ffca28">
+  <rect x="175" y="797"
+        width="270"
+        height="8"
+        rx="4"
+        fill="#ffca28">
 
     <animate
       attributeName="width"
-      values="0;270;258;270"
-      dur="3.5s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="270"
+      dur="1.7s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -1203,304 +1127,232 @@
 
   <!-- OpenAI -->
 
-  <text
-    x="640"
-    y="727"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="727"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     OpenAI
   </text>
 
-  <rect
-    x="755"
-    y="719"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="719" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="719"
-    width="330"
-    height="8"
-    rx="4"
-    fill="url(#green)">
+  <rect x="755" y="719"
+        width="330"
+        height="8"
+        rx="4"
+        fill="url(#green)">
 
     <animate
       attributeName="width"
-      values="0;330;315;330"
-      dur="2.5s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="330"
+      dur="1.4s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- Gemini -->
 
-  <text
-    x="640"
-    y="753"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="753"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Gemini
   </text>
 
-  <rect
-    x="755"
-    y="745"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="745" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="745"
-    width="300"
-    height="8"
-    rx="4"
-    fill="url(#blue)">
+  <rect x="755" y="745"
+        width="300"
+        height="8"
+        rx="4"
+        fill="url(#blue)">
 
     <animate
       attributeName="width"
-      values="0;300;287;300"
-      dur="2.8s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="300"
+      dur="1.5s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- Claude -->
 
-  <text
-    x="640"
-    y="779"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="779"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Claude
   </text>
 
-  <rect
-    x="755"
-    y="771"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="771" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="771"
-    width="295"
-    height="8"
-    rx="4"
-    fill="url(#orange)">
+  <rect x="755" y="771"
+        width="295"
+        height="8"
+        rx="4"
+        fill="url(#orange)">
 
     <animate
       attributeName="width"
-      values="0;295;282;295"
-      dur="3.1s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="295"
+      dur="1.6s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- LangChain -->
 
-  <text
-    x="640"
-    y="805"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="805"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     LangChain
   </text>
 
-  <rect
-    x="755"
-    y="797"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="797" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="797"
-    width="285"
-    height="8"
-    rx="4"
-    fill="url(#green)">
+  <rect x="755" y="797"
+        width="285"
+        height="8"
+        rx="4"
+        fill="url(#green)">
 
     <animate
       attributeName="width"
-      values="0;285;272;285"
-      dur="3.3s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="285"
+      dur="1.7s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- RAG -->
 
-  <text
-    x="640"
-    y="831"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="831"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     RAG
   </text>
 
-  <rect
-    x="755"
-    y="823"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="823" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="823"
-    width="275"
-    height="8"
-    rx="4"
-    fill="url(#purple)">
+  <rect x="755" y="823"
+        width="275"
+        height="8"
+        rx="4"
+        fill="url(#purple)">
 
     <animate
       attributeName="width"
-      values="0;275;262;275"
-      dur="3.5s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="275"
+      dur="1.8s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- AI Agents -->
 
-  <text
-    x="640"
-    y="857"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="857"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     AI Agents
   </text>
 
-  <rect
-    x="755"
-    y="849"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="849" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="849"
-    width="305"
-    height="8"
-    rx="4"
-    fill="url(#multi)">
+  <rect x="755" y="849"
+        width="305"
+        height="8"
+        rx="4"
+        fill="url(#multi)">
 
     <animate
       attributeName="width"
-      values="0;305;290;305"
-      dur="3.7s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="305"
+      dur="1.9s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- Prompt Engineering -->
 
-  <text
-    x="640"
-    y="883"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="883"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     Prompt Engineering
   </text>
 
-  <rect
-    x="755"
-    y="875"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="875" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="875"
-    width="320"
-    height="8"
-    rx="4"
-    fill="url(#purple)">
+  <rect x="755" y="875"
+        width="320"
+        height="8"
+        rx="4"
+        fill="url(#purple)">
 
     <animate
       attributeName="width"
-      values="0;320;305;320"
-      dur="3.9s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="320"
+      dur="2s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
 
   <!-- n8n -->
 
-  <text
-    x="640"
-    y="909"
-    font-family="Arial"
-    font-size="10"
-    font-weight="600"
-    fill="#cad9e1">
+  <text x="640" y="909"
+        font-family="Arial"
+        font-size="10"
+        font-weight="600"
+        fill="#cad9e1">
     n8n
   </text>
 
-  <rect
-    x="755"
-    y="901"
-    width="355"
-    height="8"
-    rx="4"
-    fill="#25343a"
-  />
+  <rect x="755" y="901" width="355" height="8" rx="4" fill="#25343a"/>
 
-  <rect
-    x="755"
-    y="901"
-    width="280"
-    height="8"
-    rx="4"
-    fill="#ea4b71">
+  <rect x="755" y="901"
+        width="280"
+        height="8"
+        rx="4"
+        fill="#ea4b71">
 
     <animate
       attributeName="width"
-      values="0;280;267;280"
-      dur="4.1s"
-      repeatCount="indefinite"/>
+      from="0"
+      to="280"
+      dur="2.1s"
+      fill="freeze"
+      repeatCount="1"/>
 
   </rect>
 
@@ -1568,11 +1420,7 @@
     CI/CD • Vercel • Railway • Render
   </text>
 
-  <circle
-    cx="540"
-    cy="957"
-    r="3"
-    fill="#27c93f">
+  <circle cx="540" cy="957" r="3" fill="#27c93f">
     <animate
       attributeName="opacity"
       values=".2;1;.2"
@@ -1610,13 +1458,11 @@
     cy="1058"
     r="5"
     fill="#16c7ff">
-
     <animate
       attributeName="opacity"
       values="1;.25;1"
       dur="1.8s"
       repeatCount="indefinite"/>
-
   </circle>
 
   <text
@@ -1652,13 +1498,11 @@
     cy="1060"
     r="4"
     fill="#27c93f">
-
     <animate
       attributeName="opacity"
       values=".2;1;.2"
       dur="1.5s"
       repeatCount="indefinite"/>
-
   </circle>
 
   <text
@@ -1673,80 +1517,7 @@
 
 
   <!-- ========================================================= -->
-  <!-- ANIMATED SCAN LINE -->
-  <!-- ========================================================= -->
-
-  <rect
-    x="50"
-    y="168"
-    width="2"
-    height="950"
-    fill="#16c7ff"
-    opacity="0">
-
-    <animate
-      attributeName="x"
-      values="50;1150;50"
-      dur="11s"
-      repeatCount="indefinite"/>
-
-    <animate
-      attributeName="opacity"
-      values="0;.18;0"
-      dur="11s"
-      repeatCount="indefinite"/>
-
-  </rect>
-
-
-  <!-- ========================================================= -->
-  <!-- FLOATING STATUS DOTS -->
-  <!-- ========================================================= -->
-
-  <circle
-    cx="595"
-    cy="170"
-    r="3"
-    fill="#16c7ff">
-
-    <animate
-      attributeName="cy"
-      values="170;158;170"
-      dur="3s"
-      repeatCount="indefinite"/>
-
-    <animate
-      attributeName="opacity"
-      values=".2;1;.2"
-      dur="3s"
-      repeatCount="indefinite"/>
-
-  </circle>
-
-
-  <circle
-    cx="1160"
-    cy="630"
-    r="3"
-    fill="#8b5cf6">
-
-    <animate
-      attributeName="cy"
-      values="630;615;630"
-      dur="4s"
-      repeatCount="indefinite"/>
-
-    <animate
-      attributeName="opacity"
-      values=".2;.9;.2"
-      dur="4s"
-      repeatCount="indefinite"/>
-
-  </circle>
-
-
-  <!-- ========================================================= -->
-  <!-- FOOTER -->
+  <!-- STATIC FOOTER -->
   <!-- ========================================================= -->
 
   <line
@@ -1763,13 +1534,11 @@
     cy="1142"
     r="3"
     fill="#27c93f">
-
     <animate
       attributeName="opacity"
       values="1;.25;1"
       dur="2s"
       repeatCount="indefinite"/>
-
   </circle>
 
   <text
