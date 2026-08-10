@@ -97,7 +97,7 @@
 <div align="center">
 
   <img
-    src="./assets/github-snake.svg"
+    src="./assets/snake-frame.svg"
     width="100%"
     alt="Umud Guliyev GitHub Contribution Snake"
   />
