@@ -51,3 +51,13 @@
 </div>
 
 <br>
+
+<div align="center">
+  <img
+    src="./assets/streak"
+    width="100%"
+    alt="Umud Guliyev Streak"
+  />
+</div>
+
+<br>
