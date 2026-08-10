@@ -1,6 +1,9 @@
-![GitSkins Animated Hero](https://www.gitskins.com/api/section/hero?username=Umud-Guliyev&theme=neon&style=aura)
-![GitSkins Animated Stack](https://www.gitskins.com/api/section/stack?username=Umud-Guliyev&theme=neon&style=aura)
-![GitSkins Animated Projects](https://www.gitskins.com/api/section/projects?username=Umud-Guliyev&theme=neon&style=aura)
-![GitSkins Animated Highlights](https://www.gitskins.com/api/section/highlights?username=Umud-Guliyev&theme=neon&style=aura)
-![GitSkins Animated Heatmap](https://www.gitskins.com/api/section/heatmap?username=Umud-Guliyev&theme=neon&style=aura)
-![GitSkins Animated Social Row](https://www.gitskins.com/api/section/social?username=Umud-Guliyev&theme=neon&style=aura)
+<div align="center">
+
+<img
+  src="./assets/hero.svg"
+  width="100%"
+  alt="Umud Guliyev — Software Engineer"
+/>
+
+</div>
