@@ -1,89 +1,77 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300"
-     xmlns="http://www.w3.org/2000/svg">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="300"
+  viewBox="0 0 1200 300"
+  role="img"
+  aria-label="Umud Guliyev - Software Engineer"
+>
 
   <defs>
 
-    <!-- Main background -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <!-- Background -->
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#071522"/>
-      <stop offset="50%" stop-color="#0B1D2D"/>
-      <stop offset="100%" stop-color="#211238"/>
+      <stop offset="55%" stop-color="#0B1B2B"/>
+      <stop offset="100%" stop-color="#211337"/>
     </linearGradient>
 
-    <!-- Cyan → Purple -->
+    <!-- Main accent -->
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#19C8FF"/>
-      <stop offset="50%" stop-color="#4DBBFF"/>
-      <stop offset="100%" stop-color="#9B5CFF"/>
+      <stop offset="0%" stop-color="#16C7FF"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
 
-    <!-- Name gradient -->
-    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#24C7FF"/>
-      <stop offset="100%" stop-color="#63BFFF"/>
+    <!-- Name -->
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#27C7FF"/>
+      <stop offset="100%" stop-color="#63C8FF"/>
     </linearGradient>
 
-    <!-- Purple ambient -->
-    <radialGradient id="purpleGlow">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.20"/>
+    <!-- Glow -->
+    <radialGradient id="glowPurple">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Cyan ambient -->
-    <radialGradient id="cyanGlow">
+    <radialGradient id="glowBlue">
       <stop offset="0%" stop-color="#00C8FF" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#00C8FF" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Soft glow -->
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
-
-    <!-- Avatar clip -->
-    <clipPath id="avatarClip">
-      <circle cx="120" cy="145" r="57"/>
-    </clipPath>
-
   </defs>
 
 
-  <!-- ====================================================== -->
-  <!-- BACKGROUND -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- CARD -->
+  <!-- ================================================= -->
 
   <rect
-    x="7"
-    y="7"
-    width="1186"
-    height="286"
+    x="8"
+    y="8"
+    width="1184"
+    height="284"
     rx="30"
-    fill="url(#bg)"
+    fill="url(#background)"
     stroke="#168BC1"
     stroke-width="1.5"
   />
 
 
-  <!-- ====================================================== -->
-  <!-- AMBIENT GLOW -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- AMBIENT LIGHT -->
+  <!-- ================================================= -->
 
   <circle
     cx="1040"
-    cy="150"
+    cy="145"
     r="170"
-    fill="url(#purpleGlow)"
+    fill="url(#glowPurple)"
   >
     <animate
       attributeName="r"
-      values="150;185;150"
-      dur="6s"
-      repeatCount="indefinite"
-    />
-
-    <animate
-      attributeName="opacity"
-      values="0.55;1;0.55"
+      values="145;180;145"
       dur="6s"
       repeatCount="indefinite"
     />
@@ -91,73 +79,72 @@
 
 
   <circle
-    cx="180"
+    cx="170"
     cy="60"
     r="130"
-    fill="url(#cyanGlow)"
+    fill="url(#glowBlue)"
   >
     <animate
       attributeName="r"
-      values="110;145;110"
+      values="110;140;110"
       dur="5s"
       repeatCount="indefinite"
     />
   </circle>
 
 
-  <!-- ====================================================== -->
-  <!-- DECORATIVE ORBITS -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- DECORATIVE ORBIT -->
+  <!-- ================================================= -->
 
   <ellipse
-    cx="430"
-    cy="75"
-    rx="190"
-    ry="45"
+    cx="410"
+    cy="88"
+    rx="185"
+    ry="43"
     fill="none"
-    stroke="#1A7CA8"
+    stroke="#168BC1"
     stroke-width="2"
     opacity="0.35"
-    transform="rotate(-8 430 75)"
+    transform="rotate(-8 410 88)"
   />
 
   <ellipse
-    cx="430"
-    cy="75"
-    rx="140"
-    ry="32"
+    cx="410"
+    cy="88"
+    rx="135"
+    ry="30"
     fill="none"
-    stroke="#5A3B91"
+    stroke="#7C3AED"
     stroke-width="1"
-    opacity="0.30"
-    transform="rotate(-8 430 75)"
+    opacity="0.22"
+    transform="rotate(-8 410 88)"
   />
 
 
-  <!-- Moving orbit light -->
+  <!-- Orbit particle -->
 
   <circle
-    cx="615"
-    cy="70"
+    cx="575"
+    cy="65"
     r="4"
     fill="#19C8FF"
-    filter="url(#softGlow)"
   >
     <animateMotion
-      dur="6s"
+      dur="5s"
       repeatCount="indefinite"
-      path="M0,0 C-80,-45 -230,-25 -370,25"
+      path="M0,0 C-100,-35 -230,-15 -360,25"
     />
   </circle>
 
 
-  <!-- ====================================================== -->
-  <!-- RIGHT SIDE RINGS -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- RIGHT DECORATION -->
+  <!-- ================================================= -->
 
   <circle
     cx="1035"
-    cy="135"
+    cy="145"
     r="65"
     fill="none"
     stroke="#168BC1"
@@ -167,7 +154,7 @@
 
   <circle
     cx="1035"
-    cy="135"
+    cy="145"
     r="95"
     fill="none"
     stroke="#168BC1"
@@ -177,7 +164,7 @@
 
   <circle
     cx="1035"
-    cy="135"
+    cy="145"
     r="125"
     fill="none"
     stroke="#7C3AED"
@@ -186,202 +173,185 @@
   />
 
 
-  <!-- ====================================================== -->
-  <!-- FLOATING PARTICLES -->
-  <!-- ====================================================== -->
+  <!-- Floating dots -->
 
-  <circle cx="1090" cy="72" r="5" fill="#19C8FF">
+  <circle
+    cx="1100"
+    cy="75"
+    r="5"
+    fill="#19C8FF"
+  >
+    <animate
+      attributeName="opacity"
+      values="0.3;1;0.3"
+      dur="3s"
+      repeatCount="indefinite"
+    />
 
     <animate
       attributeName="cy"
-      values="72;58;72"
+      values="75;62;75"
       dur="3s"
       repeatCount="indefinite"
     />
-
-    <animate
-      attributeName="opacity"
-      values="0.4;1;0.4"
-      dur="3s"
-      repeatCount="indefinite"
-    />
-
   </circle>
 
 
-  <circle cx="1125" cy="215" r="3" fill="#9B5CFF">
-
+  <circle
+    cx="1120"
+    cy="215"
+    r="3"
+    fill="#9B5CFF"
+  >
     <animate
-      attributeName="cy"
-      values="215;202;215"
+      attributeName="opacity"
+      values="0.2;0.8;0.2"
       dur="4s"
       repeatCount="indefinite"
     />
-
   </circle>
 
 
-  <circle cx="880" cy="60" r="3" fill="#19C8FF">
-
-    <animate
-      attributeName="opacity"
-      values="0.2;0.9;0.2"
-      dur="2.5s"
-      repeatCount="indefinite"
-    />
-
-  </circle>
-
-
-  <!-- ====================================================== -->
-  <!-- AVATAR -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- PROFILE IMAGE PLACEHOLDER -->
+  <!-- ================================================= -->
 
   <circle
     cx="120"
     cy="145"
     r="62"
-    fill="none"
+    fill="#0A1622"
     stroke="url(#accent)"
     stroke-width="3"
   >
-
     <animate
       attributeName="stroke-width"
       values="2;4;2"
       dur="3s"
       repeatCount="indefinite"
     />
-
   </circle>
 
 
-  <circle
-    cx="120"
-    cy="145"
-    r="58"
-    fill="#0B1724"
-  />
+  <!-- Initials -->
+
+  <text
+    x="120"
+    y="160"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="800"
+    fill="url(#accent)"
+  >
+    UG
+  </text>
 
 
-  <image
-    href="https://github.com/Umud-Guliyev.png"
-    x="63"
-    y="88"
-    width="114"
-    height="114"
-    preserveAspectRatio="xMidYMid slice"
-    clip-path="url(#avatarClip)"
-  />
-
-
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
   <!-- USERNAME -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
 
   <text
     x="242"
     y="82"
-    fill="#29C4FF"
     font-family="Arial, Helvetica, sans-serif"
     font-size="16"
     font-weight="700"
     letter-spacing="2"
+    fill="#29C4FF"
   >
     @umud-guliyev
   </text>
 
 
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
   <!-- NAME -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
 
   <text
     x="242"
     y="140"
-    fill="url(#nameGradient)"
     font-family="Arial, Helvetica, sans-serif"
     font-size="56"
     font-weight="800"
+    fill="url(#name)"
   >
     Umud Guliyev
   </text>
 
 
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
   <!-- TITLE -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
 
   <text
     x="242"
     y="177"
-    fill="#62D7FF"
     font-family="Arial, Helvetica, sans-serif"
     font-size="18"
+    fill="#62D7FF"
   >
     Software Engineer • Full-Stack &amp; AI Product Builder
   </text>
 
 
-  <!-- ====================================================== -->
-  <!-- ANIMATED CURSOR -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- CURSOR -->
+  <!-- ================================================= -->
 
   <rect
     x="835"
-    y="160"
+    y="161"
     width="3"
-    height="22"
+    height="21"
     rx="1"
     fill="#19C8FF"
   >
-
     <animate
       attributeName="opacity"
       values="1;0;1"
       dur="1s"
       repeatCount="indefinite"
     />
-
   </rect>
 
 
-  <!-- ====================================================== -->
-  <!-- GITHUB STAR COUNT -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- STARS -->
+  <!-- ================================================= -->
 
   <text
     x="960"
-    y="110"
-    fill="#FFFFFF"
+    y="108"
+    text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="50"
     font-weight="800"
-    text-anchor="middle"
+    fill="#FFFFFF"
   >
     4
   </text>
 
-
   <text
     x="960"
     y="137"
-    fill="#38CFFF"
+    text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="12"
     font-weight="700"
     letter-spacing="3"
-    text-anchor="middle"
+    fill="#38CFFF"
   >
     TOTAL STARS
   </text>
 
 
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
   <!-- CAPABILITY PILLS -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
 
-  <!-- FRONTEND -->
+  <!-- Frontend -->
 
   <rect
     x="55"
@@ -391,23 +361,22 @@
     rx="19"
     fill="#101D2A"
     stroke="#159DD4"
-    stroke-width="1.2"
   />
 
   <text
     x="145"
     y="259"
-    fill="#36C8FF"
+    text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="15"
     font-weight="600"
-    text-anchor="middle"
+    fill="#36C8FF"
   >
     Frontend
   </text>
 
 
-  <!-- BACKEND -->
+  <!-- Backend -->
 
   <rect
     x="250"
@@ -417,23 +386,22 @@
     rx="19"
     fill="#101D2A"
     stroke="#159DD4"
-    stroke-width="1.2"
   />
 
   <text
     x="340"
     y="259"
-    fill="#36C8FF"
+    text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="15"
     font-weight="600"
-    text-anchor="middle"
+    fill="#36C8FF"
   >
     Backend
   </text>
 
 
-  <!-- MOBILE -->
+  <!-- Mobile -->
 
   <rect
     x="445"
@@ -443,23 +411,22 @@
     rx="19"
     fill="#101D2A"
     stroke="#159DD4"
-    stroke-width="1.2"
   />
 
   <text
     x="520"
     y="259"
-    fill="#36C8FF"
+    text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="15"
     font-weight="600"
-    text-anchor="middle"
+    fill="#36C8FF"
   >
     Mobile
   </text>
 
 
-  <!-- AI & AUTOMATION -->
+  <!-- AI -->
 
   <rect
     x="610"
@@ -469,25 +436,24 @@
     rx="19"
     fill="#101D2A"
     stroke="#159DD4"
-    stroke-width="1.2"
   />
 
   <text
     x="700"
     y="259"
-    fill="#36C8FF"
+    text-anchor="middle"
     font-family="Arial, Helvetica, sans-serif"
     font-size="15"
     font-weight="600"
-    text-anchor="middle"
+    fill="#36C8FF"
   >
     AI &amp; Automation
   </text>
 
 
-  <!-- ====================================================== -->
-  <!-- BOTTOM ACCENT -->
-  <!-- ====================================================== -->
+  <!-- ================================================= -->
+  <!-- BOTTOM LINE -->
+  <!-- ================================================= -->
 
   <rect
     x="50"
@@ -496,7 +462,7 @@
     height="2"
     rx="1"
     fill="url(#accent)"
-    opacity="0.75"
+    opacity="0.8"
   />
 
 </svg>
